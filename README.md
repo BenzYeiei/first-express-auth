@@ -19,6 +19,9 @@ heroku logs --tail --app heroku-cm-demo
 #update
 -----------------------------------
 git add .
+-----------------------------------
 git commit -m "commit update v?"
+-----------------------------------
 git pull
+-----------------------------------
 git push
