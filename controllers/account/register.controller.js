@@ -23,7 +23,7 @@ const registerController = async(req, res) => {
       email: data.email,
       username: data.username,
       password: req.body.password,
-      urlSignin: "http://127.0.0.1:5000/api/account/signin"
+      urlSignin: "https://benzyeiei-demo.herokuapp.com/api/account/signin"
     });
   } catch (error) {
     console.log(error);
