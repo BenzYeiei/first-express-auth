@@ -8,7 +8,7 @@
 
 #2. Heroku cli
 -----------------------------------
-sudo yarn global add heroku
+npm i -g heroku
 
 #3. Check log
 -----------------------------------
