@@ -13,3 +13,15 @@ npm i -g heroku
 #3. Check log
 -----------------------------------
 heroku logs --tail --app heroku-cm-demo
+
+
+
+#update
+-----------------------------------
+git add .
+-----------------------------------
+git commit -m "commit update v?"
+-----------------------------------
+git pull
+-----------------------------------
+git push
