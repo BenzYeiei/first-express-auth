@@ -16,7 +16,7 @@ const sendEmail_forgotPassword = async(req, res) => {
     const payload = {
       name: getData.username,
       jwt: JwtData,
-      link: "http://localhost:3000/accounts/forgot-password"
+      link: "https://benzyeiei.herokuapp.com/accounts/forgot-password"
     };
     
     await nodemailerForgotpass(getData.email, payload);
